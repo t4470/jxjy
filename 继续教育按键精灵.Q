@@ -9,7 +9,7 @@ StopHotkeyMod=0
 RunOnce=1
 EnableWindow=
 MacroID=41abfc2c-86d8-4f0a-9eab-f66ae07beed2
-Description=我的脚本1
+Description=鎴戠殑鑴氭湰1
 Enable=1
 AutoRun=0
 [Repeat]
@@ -29,7 +29,7 @@ UEsDBBQAAgAIAPQO0FZlIv5UEAEAAK4PAAAJABEAeHVleGkuYm1wVVQNAAcOwYtkDsGLZA7Bi2Rz8l3H
 [Script]
 int t
 t = 0
-while t<300000
+while t<300000000
 intX = - 1 
 intY = - 1
 FindPic 0, 0, 1919, 1034,"Attachment:\xuexi.bmp",0.9,intX,intY
@@ -45,11 +45,7 @@ If intX > 0 And intY > 0 Then
 MoveTo intX + 1, intY + 1
 Delay 100
 LeftClick 1
-
-
 Delay 2000
-
-
 
 MoveTo 1240, 738
 Delay 100
@@ -65,26 +61,20 @@ MoveTo 1250,645
 Delay 100
 LeftClick 1
 Delay 1000
-
-'==========以下是按键精灵录制的内容==========
 MoveTo 1340, 270
 Delay 3155
 LeftClick 1
 Delay 1
 LeftUp 1
 Delay 1000
-'==========以上是按键精灵录制的内容==========
-'==========以下是按键精灵录制的内容==========
 MoveTo 1366, 750
 Delay 1000
 LeftClick 1
 Delay 10
 LeftClick 1
 MoveTo 1365, 277
-Delay 5000
+Delay 4000
 LeftClick 1
-
-'==========以上是按键精灵录制的内容==========
 Delay 100
 
 End If
@@ -94,12 +84,8 @@ Else
 intX = - 1 
 intY = - 1 
 
-
-
-
-
-
 FindPic 900,0,1919,1034,"Attachment:\next2.bmp",0.9,intX,intY
+
 If intX > 0 And intY > 0 Then
 MoveTo intX + 1, intY + 1
 Delay 500
@@ -109,106 +95,13 @@ FindPic 900,0,1919,1034,"Attachment:\next.bmp",0.9,intX,intY
 MoveTo intX + 1, intY + 1
 Delay 500
 LeftClick 1
+
 End If
 
 End If
 t = t + 1
-Delay 5000
+Delay 4000
+
 Wend
 
-//Call Plugin.Sys.ExitOS(1) 关机
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Call Plugin.Sys.ExitOS(1) 鍏虫満
